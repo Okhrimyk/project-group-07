@@ -10,7 +10,7 @@
   .container {
     max-width: 768px;
     margin: 0 auto;
-    padding: 40px 32px;
+    padding: 0px 32px;
   }
 }
 /* Styles for Desktop devices */
@@ -18,6 +18,6 @@
   .container {
     max-width: 1336px;
     margin: 0 auto;
-    padding: 112px 64px;
+    padding: 0 64px;
   }
 }
