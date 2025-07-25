@@ -1,13 +1,49 @@
 <section class="hero">
   <div class="container hero-container">
     <picture class="hero-image">
-      <source media="(max-width: 767px)" srcset="./images/hero-mobile.jpg" />
+      <source
+        media="(max-width: 767px)"
+        and
+        media="min-resolution: 1dppx"
+        srcset="./img/Hero/placeholder_Image_1x_mob.jpg 1x"
+      />
 
-      <source media="(max-width: 1335px)" srcset="./images/hero-tablet.jpg" />
+      <source
+        media="(max-width: 767px)"
+        and
+        media="min-resolution: 2dppx"
+        srcset="./img/Hero/placeholder_Image_2x_mob.jpg 1x"
+      />
 
-      <source media="(min-width: 1336px)" srcset="./images/hero-desktop.jpg" />
+      <source
+        media="(max-width: 1335px)"
+        and
+        media="min-resolution: 1dppx"
+        srcset="./img/Hero/placeholder_Image_1x_tab.jpg"
+      />
 
-      <img src="./images/hero.jpg" alt="Yoga" />
+      <source
+        media="(max-width: 1335px)"
+        and
+        media="min-resolution: 2dppx"
+        srcset="./img/Hero/placeholder_Image_2x_tab.jpg"
+      />
+
+      <source
+        media="(min-width: 1336px)"
+        and
+        media="min-resolution: 1dppx"
+        srcset="./img/Hero/placeholder_Image_1x_pc.jpg"
+      />
+
+      <source
+        media="(min-width: 1336px)"
+        and
+        media="min-resolution: 2dppx"
+        srcset="./img/Hero/placeholder_Image_2x_pc.jpg"
+      />
+
+      <img src="./img/Hero/placeholder_Image_1x_pc." alt="Yoga" />
     </picture>
 
     <div class="hero-content">
