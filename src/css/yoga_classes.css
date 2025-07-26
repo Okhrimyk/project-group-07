@@ -4,7 +4,7 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 color: #0d0b0a; 
-margin-bottom: 12px;
+margin: 0 auto;
 }
 .yoga-classes-title {
 font-weight: 400;
@@ -16,6 +16,12 @@ color: #0d0b0a;
 margin: 0 auto;
 padding-bottom: 20px;
 }
+.title-default {
+  display: block;
+}
+.title-tablet {
+  display: none;
+}
 .yoga-classes-text {
 font-weight: 400;
 font-size: 16px;
@@ -25,11 +31,12 @@ color: #0d0b0a;
 }
 .yoga-classes-list {
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
 gap: 48px;
 justify-content: center;
 margin: 0 auto;
 }
+
 .yoga-classes-item {
  
 }
@@ -44,4 +51,35 @@ line-height: 1.4;
 letter-spacing: 0.01em;
 text-align: center;
 color: #0d0b0a;  
+}
+.yoga-classes-img {
+border-radius: 16px;
+width: 343px;
+height: 198px;  
+}
+.item-small {
+
+}
+.item-large {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .item-small {
+    flex: 0 0 calc((100% - 24px) / 2); /* 340px при container 704px */
+    max-width: 340px;
+    height: 240px;
+  }
+
+  .item-large {
+    flex: 0 0 100%;
+    max-width: 704px;
+    height: 282px;
+  }
+  .title-default {
+    display: none;
+  }
+  .title-tablet {
+    display: block;
+  }
 }
