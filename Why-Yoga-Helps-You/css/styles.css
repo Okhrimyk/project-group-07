@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.yoga-helps{
+margin: 0 auto;
+background-color: #f9f9f9;
+}
+
+.helps-container{
+margin: 0 auto;
+    width: 100%;
+max-width: 375px;
+padding: 64px 16px;}
+
+
+.helps-title{ 
+font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.helps-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.helps-list{ 
+list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 40px;
+}
+
+.helps-item{
+ text-align: center;
+    background-color: #ffffff;
+    padding: 24px 16px;
+    border-radius: 12px;
+}
+
+.helps-item-title{
+ font-weight: 400;
+    font-size: 24px;
+    /* line-height: 34px; */ 
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.helps-text{
+font-weight: 400;
+font-size: 16px;
+/* line-height: 26px; */ 
+line-height: 1.6;
+}
+
+
+.btn-helps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 10px 24px;
+width: 100%;
+max-width: 343px;
+    height: 46px;
+    cursor: pointer;
+    background: #E0E6FF;
+border: none;
+    margin: 0 auto;
+}
+.btn .btn-helps-desktop {
+  display: none;
+}
+/*  768px  */
+
+@media screen and (min-width: 768px) {
+.helps-container {
+max-width: 768px;
+padding: 80px 32px;}
+
+.helps-subtitle{
+    max-width: 704px;
+font-size: 18px; }
+
+.helps-list {
+    flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 48px 24px;
+        margin-bottom: 40px; }
+
+.helps-item{
+width: calc((100% - 24px) / 2);
+}
+ .btn-helps {
+   width: 110px;
+}
+ 
+.btn .btn-helps-desktop {
+    display: inline;
+  }
+  .btn .btn-helps-mobile {
+    display: none;
+  }
+}
+
+/*  1158  */
+
+
+@media screen and (min-width: 1158px) {
+.helps-container {
+   max-width: 1280px; 
+   padding: 112px 64px;
+}
+
+.helps-title{
+font-weight: 400;
+font-size: 52px; }
+
+
+.helps-subtitle{
+    margin: 0 auto;
+    margin-bottom: 40px;
+font-size: 18px; }
+
+.helps-list {
+    padding: 0 64px;
+    margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+} 
+.helps-item{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+    padding: 0 ;
+    margin: 0 ;
+    max-width: 310px;}
+
+.helps-item-title{
+font-size: 28px; 
+}
+
+.btn-helps {
+     display: flex;
+      justify-content: center;
+  margin: 40px auto;
+  align-self: center;
+    max-width: 110px;
+    }
+}
