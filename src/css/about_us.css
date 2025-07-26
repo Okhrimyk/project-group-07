@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 .yoga-helps{
 margin: 0 auto;
 background-color: #f9f9f9;
