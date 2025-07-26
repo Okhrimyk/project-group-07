@@ -104,7 +104,6 @@ padding-bottom: 24px;
 white-space: nowrap;
   }
 .yoga-classes-text{
-
 font-size: 18px;
   }
  .yoga-classes-span-wrap {
@@ -124,4 +123,5 @@ font-size: 18px;
     width: calc( ( 100% - 24px * 2) / 3);
 
 }
+
 }
