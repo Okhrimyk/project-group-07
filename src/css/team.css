@@ -1,5 +1,10 @@
+.team.container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
 .team-section {
   text-align: center;
+  padding: 64px 0;
 }
 
 .team-subtitle {
