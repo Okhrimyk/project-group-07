@@ -153,6 +153,18 @@
   color: rgba(13, 11, 10, 0.6);
 }
 
+.modal-form-input:focus {
+  outline: none;
+}
+
+.modal-form-input:focus::placeholder {
+  opacity: 0;
+}
+
+.modal-form-input:not(:placeholder-shown):invalid {
+  border-color: #b10000;
+}
+
 .modal-button-checkout {
   display: block;
   font-weight: 500;
