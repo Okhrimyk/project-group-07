@@ -4,7 +4,7 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 color: #0d0b0a; 
-margin-bottom: 12px;
+margin: 0 auto;
 }
 .yoga-classes-title {
 font-weight: 400;
@@ -16,6 +16,12 @@ color: #0d0b0a;
 margin: 0 auto;
 padding-bottom: 20px;
 }
+.title-default {
+  display: block;
+}
+.title-tablet {
+  display: none;
+}
 .yoga-classes-text {
 font-weight: 400;
 font-size: 16px;
@@ -25,16 +31,19 @@ color: #0d0b0a;
 }
 .yoga-classes-list {
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
 gap: 48px;
 justify-content: center;
 margin: 0 auto;
 }
+
 .yoga-classes-item {
- 
+ width: 100%;
 }
 .yoga-classes-content {
 display: flex;
+flex-wrap: wrap;
+margin-bottom: 8px;
 
 }
 .yoga-classes-item-title {
@@ -44,4 +53,75 @@ line-height: 1.4;
 letter-spacing: 0.01em;
 text-align: center;
 color: #0d0b0a;  
+}
+.yoga-classes-img {
+border-radius: 16px;
+}
+.yoga-classes-anchor-link {
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 4px 20px;
+  min-width: 74px;
+  background-color: #c2d9fc;
+  text-align: center;
+justify-content: center;
+align-items: center;
+}
+.yoga-classes-span-wrap {
+  display: none;
+}
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.yoga-classes .container {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+ .yoga-classes-list {
+    gap: 24px;
+ }
+.yoga-classes-item {
+    width: calc( ( 100% - 24px) / 2);
+ }
+.yoga-classes-item:last-child{
+    width: 100%;
+
+}
+  
+.title-tablet {
+display: block;
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-align: center;
+color: #0d0b0a;
+margin: 0 auto;
+padding-bottom: 24px;
+white-space: nowrap;
+  }
+.yoga-classes-text{
+font-size: 18px;
+  }
+ .yoga-classes-span-wrap {
+    display: contents;
+  }
+}
+@media screen and (min-width: 1336px){
+.yoga-classes-content
+ {
+    display: flex;
+    max-width: 768px;
+}
+    .yoga-classes-item {
+    width: calc( ( 100% - 24px * 2) / 3);
+}
+.yoga-classes-item:last-child{
+    width: calc( ( 100% - 24px * 2) / 3);
+
+}
+
 }
