@@ -12,7 +12,7 @@
 
   opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: auto;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -154,6 +154,7 @@
 }
 
 .modal-button-checkout {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -180,9 +181,61 @@
 
 @media only screen and (min-width: 768px) {
   .modal {
-    width: calc(100% - 64px);
     max-width: 704px;
-    min-height: 720px;
-    padding: 64px 92px 64px 92px;
+    height: auto;
+    min-height: 573px;
+    padding: 64px 92px;
+    border-radius: 16px;
+  }
+
+  .modal-description-box {
+    padding-bottom: 24px;
+  }
+
+  .modal-title {
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+
+  .modal-description {
+    font-size: 22px;
+  }
+
+  .modal-price {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+
+  .modal-form {
+    min-height: 246px;
+  }
+
+  .modal-form-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .modal-form-list-item:first-child {
+    width: 100%;
+  }
+
+  .modal-form-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .modal-button-checkout {
+    width: auto;
+    margin: 24px auto 0 auto;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .modal {
+    max-width: 768px;
+    padding: 64px;
   }
 }
