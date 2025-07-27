@@ -64,9 +64,10 @@ width: 156px;
 @media screen and (min-width: 1336px){
 
 .list-gallery {
-        width: 422px;
+  width: 422px;
     }
+    
 .foto-list-gallery{
-    padding-bottom: 112px;
+  padding-bottom: 112px;
 }
 }
