@@ -6,6 +6,7 @@
   padding-right: 20px;
 }
 
+
 .titel-gallery{
   font-weight: 400;
   font-size: 40px;
@@ -36,17 +37,22 @@
   align-items: center;
   justify-content: center;
   row-gap: 24px;
-  column-gap: 24px;
+  column-gap: 24px; 
   padding-bottom: 64px;
+
 }
 
+
 .list-gallery{
-width: 156px;
+ width:calc((100% - 24px) / 2);
 }
 
 .img-gallery{
   border-radius: 16px;
+ 
 }
+
+
 
 @media screen and (min-width: 768px){
 .gallery{
