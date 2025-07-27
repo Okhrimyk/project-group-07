@@ -44,6 +44,10 @@
 width: 156px;
 }
 
+.img-gallery{
+  border-radius: 16px;
+}
+
 @media screen and (min-width: 768px){
 .gallery{
    padding-left: 32px;
