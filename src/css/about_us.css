@@ -1,11 +1,13 @@
-
 .yoga-helps{
 margin: 0 auto;
 background: var(--color-scheme-3-background);
+
+
 }
 
 .helps-container{
 margin: 0 auto;
+    width: 100%;
 max-width: 375px;
 padding: 64px 16px;}
 
@@ -88,8 +90,6 @@ border: 1px solid var(--color-hawkes-blue);
 @media screen and (min-width: 768px) {
 .helps-container {
 max-width: 768px;}
-
-
 .helps-subtitle{
     max-width: 704px;
 font-size: 18px; }
@@ -100,7 +100,6 @@ font-size: 18px; }
         justify-content: center;
         text-align: center;
         gap: 47px 24px; }
-
 .helps-item{
 width: calc((100% - 24px) / 2);
 }
