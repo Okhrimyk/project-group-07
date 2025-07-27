@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 999;
+  z-index: 700;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,19 @@
   overflow: hidden;
 }
 
+.backdrope {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25);
+}
+
 .modal {
   position: absolute;
   top: 50%;
@@ -42,6 +55,7 @@
   overflow-y: auto;
   padding: 64px 16px 112px 16px;
   margin: 0 auto;
+  z-index: 999;
 }
 
 .modal-button-close {
