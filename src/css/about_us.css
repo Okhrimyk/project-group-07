@@ -5,9 +5,9 @@
 }
 
 .helps-container {
-padding: 0;
-max-width: 100%;
-margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .helps-title {
@@ -27,7 +27,7 @@ margin: 0 auto;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
- margin: 0 auto;
+  margin: 0 auto;
   color: var(--color-scheme-1-text);
 }
 
@@ -72,8 +72,8 @@ margin: 0 auto;
   padding: 10px 24px;
   height: 46px;
   font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.6;
   cursor: pointer;
   border: 1px solid var(--color-hawkes-blue);
   background: var(--color-hawkes-blue);
@@ -84,14 +84,14 @@ line-height: 1.6;
   margin: 0 auto;
 }
 .btn-helps:hover,
-  .btn-helps:focus {
-    background-color: var(--color-hawkes-blue-hover, #e0ecff);
-    transform: scale(1.02);
-  }
+.btn-helps:focus {
+  background-color: var(--color-hawkes-blue-hover, #e0ecff);
+  transform: scale(1.02);
+}
 
-  .btn-helps:active {
-    transform: scale(0.98);
-  }
+.btn-helps:active {
+  transform: scale(0.98);
+}
 .btn-helps-mobile {
   display: inline;
 }
@@ -105,20 +105,20 @@ line-height: 1.6;
     max-width: 768px;
     padding: 64px 32px;
   }
-
   .helps-subtitle {
     font-size: 18px;
     max-width: 640px;
     margin: 0 auto 48px;
   }
-
   .helps-list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
   }
-.helps-title{max-width: 704px;}
+  .helps-title {
+    max-width: 704px;
+  }
   .helps-item {
     width: calc((100% - 24px) / 2);
   }
