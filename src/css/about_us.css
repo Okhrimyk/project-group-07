@@ -91,7 +91,6 @@ opacity: 0.5;
 }
 
 .btn-helps:focus:focus {
-  background-color: none;
   border: 1px solid #c2d9fc;
   opacity: 1;
 }
