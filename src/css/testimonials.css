@@ -1,4 +1,4 @@
-.testi-container {
+.testimonials {
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -29,6 +29,13 @@
   padding: 12px;
   background-color: #dfebeb;
   border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.testi-list-item-text {
+  max-width: 319px;
 }
 
 .testi-container-card {
@@ -53,7 +60,7 @@
 /*  Tablet 768px */
 
 @media only screen and (min-width: 768px) {
-  .testi-container {
+  .testimonials {
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -62,12 +69,16 @@
     font-size: 40px;
     margin-bottom: 24px;
   }
+
+  .testi-list-item-text {
+    max-width: 680px;
+  }
 }
 
 /* Desktop 1336px */
 
 @media only screen and (min-width: 1336px) {
-  .testi-container {
+  .testimonials {
     padding-top: 112px;
     padding-bottom: 112px;
   }
@@ -86,6 +97,7 @@
   .testi-list-item-text {
     flex-grow: 1;
     margin-bottom: 32px;
+    max-width: 620px;
   }
 
   .testi-container-card {
