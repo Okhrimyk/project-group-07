@@ -45,13 +45,6 @@
   margin-bottom: 20px;
 }
 
-/* .team-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-} */
-
 .team-name {
   font-weight: 600;
   font-size: 18px;
@@ -69,6 +62,7 @@
 .team-social {
   display: flex;
   gap: 14px;
+  margin-bottom: 10px;
 }
 
 .team-social-link {
