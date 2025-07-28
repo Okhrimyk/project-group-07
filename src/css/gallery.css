@@ -4,6 +4,7 @@
   background-color:#f2fafa;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 112px;
 }
 
 
@@ -36,6 +37,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+ 
   row-gap: 24px;
   column-gap: 24px; 
   padding-bottom: 64px;
@@ -44,11 +46,15 @@
 
 
 .list-gallery{
- width:calc((100% - 24px) / 2);
+ width: calc((100% - 24px) / 2);
 }
 
 .img-gallery{
   border-radius: 16px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
  
 }
 
@@ -56,8 +62,8 @@
 
 @media screen and (min-width: 768px){
 .gallery{
-   padding-left: 32px;
-   padding-right: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .titel-gallery,
@@ -74,8 +80,7 @@
 @media screen and (min-width: 1336px){
 
 .list-gallery {
-  width: 422px;
-    }
+  width: calc((100% - 48px) / 3);    }
     
 .foto-list-gallery{
   padding-bottom: 112px;
