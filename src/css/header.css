@@ -67,9 +67,8 @@
 }
 
 .header-anchor-link:focus {
-    background-color: none;
-    border: 1px solid #c2d9fc;
-    opacity: 1;
+  border: 1px solid #c2d9fc;
+  opacity: 1;
 }
 
 .header-span-wrap {
