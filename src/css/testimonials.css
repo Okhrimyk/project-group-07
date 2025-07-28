@@ -72,17 +72,28 @@
     padding-bottom: 112px;
   }
 
+  .testi-list-item {
+    width: calc((100% - 24px) / 2);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
   .testi-title {
     font-size: 52px;
+  }
+
+  .testi-list-container-text {
+    flex-grow: 1;
+    margin-bottom: 32px;
+  }
+
+  .testi-container-card {
+    margin-top: auto;
+    text-align: center;
   }
 
   .testi-container-card-text {
     font-family: 'Sarabun', sans-serif;
   }
-
-  .testi-list-item {
-    width: calc((100% - 24px) / 2);
-  }
 }
-
-/* new branch */
