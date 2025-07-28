@@ -75,9 +75,11 @@
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
-  border: 1px solid var(--color-hawkes-blue);
-  background: var(--color-hawkes-blue);
-  color: var(--color-neutral-darkest);
+  background-color: #c2d9fc;
+  text-align: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
   max-width: 343px;
   height: 46px;
@@ -85,13 +87,17 @@
 }
 .btn-helps:hover,
 .btn-helps:focus {
-  background-color: var(--color-hawkes-blue-hover, #e0ecff);
-  transform: scale(1.02);
+opacity: 0.5;
 }
 
-.btn-helps:active {
-  transform: scale(0.98);
+.btn-helps:focus:focus {
+  background-color: none;
+  border: 1px solid #c2d9fc;
+  opacity: 1;
 }
+/* .btn-helps:active {
+  transform: scale(0.98);
+} */
 .btn-helps-mobile {
   display: inline;
 }
