@@ -1,5 +1,4 @@
 .yoga-helps {
-
   text-align: center;
   background-color: #dfebeb;
 }
@@ -52,6 +51,7 @@
   font-size: 24px;
   letter-spacing: 0.01em;
   line-height: 1.4;
+  white-space: nowrap;
   color: var(--color-scheme-1-text);
   margin-top: 0;
   margin-bottom: 20px;
@@ -149,6 +149,7 @@ opacity: 0.5;
 /*  1336px  */
 
 @media screen and (min-width: 1336px) {
+
   .container {
     max-width: 1440px;
     padding-bottom: 112px;
@@ -169,6 +170,7 @@ opacity: 0.5;
   .helps-list {
     gap: 24px;
   }
+  
   .helps-item {
     width: calc((100% - (24px * 3)) / 4);
   }
