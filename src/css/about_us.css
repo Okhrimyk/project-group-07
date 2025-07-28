@@ -34,7 +34,7 @@
 .helps-list {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 48px;
   list-style: none;
   padding: 0;
   margin-bottom: 40px;
@@ -52,6 +52,7 @@
   font-size: 24px;
   letter-spacing: 0.01em;
   line-height: 1.4;
+   white-space: nowrap;
   color: var(--color-scheme-1-text);
   margin-top: 0;
   margin-bottom: 20px;
@@ -80,8 +81,8 @@
   color: var(--color-neutral-darkest);
   width: 100%;
   max-width: 343px;
-  height: 46px;
   margin: 0 auto;
+  margin-bottom: 64px;
 }
 .btn-helps:hover,
 .btn-helps:focus {
@@ -164,6 +165,7 @@
   }
 
   .helps-item-title {
+     white-space: normal;
     font-size: 28px;
   }
 
