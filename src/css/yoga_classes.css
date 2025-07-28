@@ -102,6 +102,10 @@ border-radius: 16px;
 @media screen and (min-width: 768px) {
   .yoga-classes {
      background-color: #f2fafa;
+   
+  }
+  .yoga-classes.container {
+    padding: 40px 32px;
   }
   .yoga-classes-anchor-link {
     width: 110px;
@@ -136,16 +140,19 @@ margin: 0 auto;
 }
 
 @media screen and (min-width: 1336px){
+  .yoga-classes.container {
+      padding: 112px 64px;
+    }
+
 .yoga-classes-title {
     font-size: 52px;
 }
     .yoga-classes-content
  {
     display: flex;
-    max-width: 768px;
-   
+    max-width: 768px;   
     margin: 0 auto;
-}
+  }
     .yoga-classes-item {
     width: calc( ( 100% - 24px * 2) / 3);
 }

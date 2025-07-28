@@ -1,7 +1,7 @@
-.team.container {
+/* .team.container {
   padding-top: 64px;
   padding-bottom: 64px;
-}
+} */
 .team-section {
   text-align: center;
   padding: 64px 0;
@@ -84,6 +84,9 @@
 /*    Tablet styles (≥768px)      */
 /* ------------------------------ */
 @media (min-width: 768px) {
+  .team-section {
+    padding: 40px 0;
+  }
   .team-title {
     font-size: 52px;
     margin-bottom: 24px;
@@ -121,6 +124,9 @@
 /*   Desktop styles (≥1336px)     */
 /* ------------------------------ */
 @media (min-width: 1336px) {
+  .team-section {
+        padding: 112px 0;
+      }
   .team-grid {
     max-width: 1312px;
     gap: 64px 24px;
