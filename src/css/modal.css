@@ -177,6 +177,19 @@
 
 .modal-form-input:not(:placeholder-shown):invalid {
   border-color: #b10000;
+  color: #b10000;
+}
+
+.modal-form-text-invalid {
+  font-size: 16px;
+  padding-left: 0px;
+  margin-top: 8px;
+  color: #b10000;
+  display: none;
+}
+
+.modal-form-input:not(:placeholder-shown):invalid ~ .modal-form-text-invalid {
+  display: block;
 }
 
 .modal-button-checkout {
