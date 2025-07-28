@@ -1,7 +1,7 @@
 .yoga-helps {
-  padding: 64px 16px;
+
   text-align: center;
-  background: var(--color-scheme-3-background);
+  background-color: #dfebeb;
 }
 
 .helps-container {
@@ -107,7 +107,10 @@ opacity: 0.5;
 /*  768px  */
 
 @media screen and (min-width: 768px) {
-  .helps-container {
+  .yoga-helps {
+    background-color: #f2fafa;
+  }
+  .container {
     max-width: 768px;
     padding: 64px 32px;
   }
@@ -147,9 +150,10 @@ opacity: 0.5;
 /*  1336px  */
 
 @media screen and (min-width: 1336px) {
-  .helps-container {
-    max-width: 1312px;
-    padding: 64px;
+  .container {
+    max-width: 1440px;
+    padding-bottom: 112px;
+    padding-top: 112px;
     margin: 0 auto;
   }
 
@@ -172,6 +176,7 @@ opacity: 0.5;
 
   .helps-item-title {
     font-size: 28px;
+    margin-bottom: 24px;
   }
 
   .btn-helps {
