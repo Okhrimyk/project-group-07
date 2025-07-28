@@ -52,7 +52,7 @@
   font-size: 24px;
   letter-spacing: 0.01em;
   line-height: 1.4;
-   white-space: nowrap;
+  white-space: nowrap;
   color: var(--color-scheme-1-text);
   margin-top: 0;
   margin-bottom: 20px;
@@ -157,19 +157,16 @@
     font-size: 18px;
   }
 
-
   .helps-list {
     gap: 24px;
   }
   .helps-item {
     width: calc((100% - (24px * 3)) / 4);
   }
-
   .helps-item-title {
-     white-space: normal;
+    white-space: normal;
     font-size: 28px;
   }
-
   .btn-helps {
     margin-top: 40px;
     max-width: 110px;
