@@ -176,6 +176,7 @@ opacity: 0.5;
   }
 
   .helps-item-title {
+    white-space: normal;
     font-size: 28px;
     margin-bottom: 24px;
   }
