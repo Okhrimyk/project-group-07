@@ -227,6 +227,13 @@
   .footer {
     padding: 40px 32px;
   }
+    .footer-subscribe-form {
+      display: flex;
+      gap: 16px;
+    }
+    .footer-subscribe-btn {
+      width: 78px;
+    }
   .footer .container {
     /* min-width: 768px; */
   }
