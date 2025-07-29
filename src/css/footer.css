@@ -84,13 +84,14 @@
   border: 1px solid rgba(255, 255, 255, 0);
 }
 
-.footer-subscribe-input:invalid {
+.footer-subscribe-input:not(:placeholder-shown):invalid {
   border-color: #b10000;
   margin-bottom: 8px;
   color: #b10000;
 }
 
-.footer-subscribe-input:invalid ~ .footer-input-error-text {
+.footer-subscribe-input:not(:placeholder-shown):invalid
+  ~ .footer-input-error-text {
   display: block;
   margin-bottom: 16px;
   opacity: 1;
