@@ -1248,10 +1248,12 @@
                 id="subscribe-email"
                 type="email"
                 placeholder="E-mail"
+                required
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               />
               <p class="footer-input-error-text">Invalid email, try again</p>
             </div>
-            <button class="footer-subscribe-btn">Join</button>
+            <button type="submit" class="footer-subscribe-btn">Join</button>
           </form>
           <p class="footer-subscribe-policy">
             By subscribing, you consent to our Privacy Policy and agree to
