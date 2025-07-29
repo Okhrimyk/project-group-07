@@ -1,12 +1,7 @@
 .yoga-helps {
   text-align: center;
   background-color: #dfebeb;
-}
-
-.helps-container {
-  padding: 0;
-  max-width: 100%;
-  margin: 0 auto;
+  padding: 64px 0;
 }
 
 .helps-title {
@@ -26,7 +21,7 @@
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 48px auto;
   color: var(--color-scheme-1-text);
 }
 
@@ -113,17 +108,13 @@
 @media screen and (min-width: 768px) {
   .yoga-helps {
     background-color: #f2fafa;
-  }
-
-  .container {
-    max-width: 768px;
-    padding: 64px 32px;
+    padding: 40px 0;
   }
 
   .helps-subtitle {
     font-size: 18px;
     max-width: 640px;
-    margin: 0 auto 48px;
+    margin: 0 auto 40px;
   }
 
   .helps-list {
@@ -139,6 +130,7 @@
 
   .helps-item {
     width: calc((100% - 24px) / 2);
+    margin-bottom: 22px;
   }
 
   .helps-item-title {
@@ -163,20 +155,16 @@
 /*  1336px  */
 
 @media screen and (min-width: 1336px) {
-
-  .container {
-    max-width: 1440px;
-    padding-bottom: 112px;
-    padding-top: 112px;
-    margin: 0 auto;
-  }
-
-  .helps-title {
+  .yoga-helps {
+      background-color: #f2fafa;
+      padding: 112px 0;
+    }
+.helps-title {
     font-size: 52px;
   }
 
   .helps-subtitle {
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     font-size: 18px;
   }
 
@@ -186,6 +174,7 @@
 
   .helps-item {
     width: calc((100% - (24px * 3)) / 4);
+    margin-bottom: 0;
   }
 
   .helps-item-title {
